@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-color: #3498db;
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(60, 60, 60);
+}
+
+input {
+  text-align: center;
+  background-color: #ecf0f1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 10px 0;
+  width: 250px;
+  transition: border 0.5s;
+}
+
+p {
+  text-align: center;
+  color: #444;
+  display: block;
+}
+
+.login-form {
+  text-align: center;
+  background-color: #fff;
+  margin: auto;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.login-form .loginbtn {
+  cursor: pointer;
+  background-color: rgb(177, 177, 177);
+}
+
+.login-form .registerbtn {
+  cursor: pointer;
+  background-color: rgb(177, 177, 177);
+}
